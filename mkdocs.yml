@@ -1,1 +1,8 @@
 site_name: My Docs
+
+theme: readthedocs
+
+nav:
+  - index.md
+  - docs2rest/index.md
+  - docs2rest/gui.md
