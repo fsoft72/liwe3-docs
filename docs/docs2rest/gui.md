@@ -1,4 +1,4 @@
-## GUI definition
+# GUI definition
 
 `docs2rest` offers a basic support for defining GUIs in Markdown.
 The idea is that data should be shown in two different modes:
@@ -7,6 +7,8 @@ The idea is that data should be shown in two different modes:
 - in an editor that should allow user to create and modifiy existing elements.
 
 The GUI definition section must follow some rules, we could say that the definition is *position based*.
+
+## Defining the *header*
 
 the first line for a new GUI definition is the *header* with this syntax:
 
@@ -18,7 +20,7 @@ So the first part `### GUI: ` specify the beginning of a new GUI definition to t
 
 Then inside the square brackets you have to insert the **collection name** and optionally the **filter**, separated by the slash `/`.
 
-If the editor will have more than one column, you can specify the size in unit of 12th (as in Bootstrap or Material design) so that every line is created by 12 elements.
+If the editor will have more than one column to show the inputs and widgets, you can specify the size in unit of 12th (as in Bootstrap or Material design) so that every line is created by 12 elements.
 
 For example, if you want a column be as twice as big than the other, specify a ratio of 8:4 (the first column is 8, the second is 4, so the sum is 12 and first column is twice as big as the second).
 
@@ -27,6 +29,8 @@ Here there is a complete example of a GUI definition for a `Post` field editor, 
 ```markdown
   ### GUI: `Post` [posts/posts] [8,4]
 ```
+
+## Defining the *fields*
 
 After that, you can specify the fields that will be shown in the grid, and the fields that will be shown in the editor.
 Every field must be defined with the following syntax:

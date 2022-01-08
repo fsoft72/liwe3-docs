@@ -1,4 +1,4 @@
-# Docs2Rest
+# Introduction
 
 `docs2rest` is a tool that's able to convert a Markdown file into a working REST API.
 

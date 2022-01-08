@@ -1,8 +1,13 @@
-site_name: My Docs
+site_name: LiWE3 Documentation
 
-theme: readthedocs
+theme: material
+
+markdown_extensions:
+    - toc:
+        permalink: True
 
 nav:
   - index.md
-  - docs2rest/index.md
-  - docs2rest/gui.md
+  - Docs2Rest:
+    - 'Introduction': docs2rest/index.md
+    - 'GUI Definition': docs2rest/gui.md
