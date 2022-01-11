@@ -45,8 +45,8 @@ for example:
 [1][1][12] title		str,req				'Title'
 ```
 
-this is the `title` field, which will be shown in the grid, and in the editor as a text field. It is required.
-It will be at the first position in the grid, and in the first column in the editor, and will be 12 units wide.
+this is the `title` field, which will be shown in the grid, and in the editor as a text field. It is a required field that means that the user must fill it in the editor before being able to save the item.
+In grid, it will be at the first position, and in the first column in the editor, and will be 12 units wide.
 
 If a field should appear in the editor, but not in the grid, you can specify the column position to be empty:
 
@@ -59,3 +59,32 @@ In a similar way, if a field should appear in the grid, but not in the editor, y
 ```markdown
 [1][ ][12] title		str,req				'Title'
 ```
+
+## The accordion container
+
+In the *editor* mode, sometimes it is useful to group elements together both for logical reasons and to make the editor more compact.
+
+The **GUI** definition can contain an **accordion container**, which will be shown in the editor as a group of elements (if the translator plugin supports this feature).
+At the moment, only the *nextjs* plugin support the feature, but you will have the information in the AST tree anyway.
+
+To start an accordion container, you can use the following syntax:
+```markdown
+[ ][2][12] acc accordion 'Accordion Title'
+```
+
+Since the first square brackets are empty, the element will not be shown in the grid, but will be shown in the editor as a group of elements.
+In the example, the second square brackets specify the column position in the editor (2) and the size of the group (12 / all the available row space in the editor).
+
+With this line, you have defined an *accordion start* and everything that follows will be shown in the editor as a group of elements if you put the '*' character as the value of the second brackets.
+
+Let's see a complete example:
+
+```markdown
+[ ][2][12] acc			accordion		'Price'
+[ ][*][ 6] price_net		num			'Price net'
+[ ][*][ 6] price_vat		num			'Price vat'
+[ ][*][ 4] discount		num			'Discount'
+[ ][2][12] email		email			'Client email'
+```
+
+In this example, we're defining an accordion with the *Price* title. Inside the accordion, we have the *price_net*, *price_vat*, *discount* fields, while the *email* field will be shown in the editor outside the accordion.
