@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Welcome to LiWE Framework
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is the offical home page of LiWE Framework.
 
-## Commands
+The complete toolchain and environment for developing LiWE applications is available here.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+**NOTE:** This is a work in progress.
 
-## Project layout
+Please, use the left menu to navigate the documentation.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+*Last update: 2022-01-12 01:47:40*
