@@ -8,6 +8,9 @@ markdown_extensions:
 
 nav:
   - index.md
+  - LiWE3:
+    - 'Introduction': liwe3/index.md
   - Docs2Rest:
     - 'Introduction': docs2rest/index.md
     - 'GUI Definition': docs2rest/gui.md
+    - 'Menu Creation': docs2rest/menu.md
