@@ -13,6 +13,8 @@ nav:
     - NodeJS:
       - 'Library': liwe3/nodejs/index.md
       - 'Sending emails': liwe3/nodejs/send_emails.md
+    - NextJS:
+      - 'Authentication': liwe3/nextjs/authentication.md
   - Docs2Rest:
     - 'Introduction': docs2rest/index.md
     - 'GUI Definition': docs2rest/gui.md
