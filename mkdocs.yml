@@ -15,6 +15,7 @@ nav:
       - 'Sending emails': liwe3/nodejs/send_emails.md
     - NextJS:
       - 'Authentication': liwe3/nextjs/authentication.md
+      - 'Payments': liwe3/nextjs/payments.md
   - Docs2Rest:
     - 'Introduction': docs2rest/index.md
     - 'GUI Definition': docs2rest/gui.md
