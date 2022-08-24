@@ -1,6 +1,9 @@
 site_name: LiWE3 Documentation
 
-theme: material
+theme:
+  name: material
+  custom_dir: overrides
+
 
 markdown_extensions:
     - toc:
@@ -16,7 +19,9 @@ nav:
     - NextJS:
       - 'Authentication': liwe3/nextjs/authentication.md
       - 'Payments': liwe3/nextjs/payments.md
-  - Docs2Rest:
-    - 'Introduction': docs2rest/index.md
-    - 'GUI Definition': docs2rest/gui.md
-    - 'Menu Creation': docs2rest/menu.md
+    - Tools:
+      - 'Introduction': liwe3/tools/index.md
+      - Docs2Rest:
+        - 'Introduction': liwe3/tools/docs2rest/index.md
+        - 'GUI Definition': liwe3/tools/docs2rest/gui.md
+        - 'Menu Creation': liwe3/tools/docs2rest/menu.md
