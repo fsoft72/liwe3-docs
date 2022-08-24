@@ -4,10 +4,12 @@ theme:
   name: material
   custom_dir: overrides
 
-
 markdown_extensions:
     - toc:
         permalink: True
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
 
 nav:
   - index.md
