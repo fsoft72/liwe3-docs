@@ -4,19 +4,20 @@ theme:
   name: material
   features:
     - content.code.annotate # (1)
+  custom_dir: overrides
 
 markdown_extensions:
   - toc:
       permalink: True
   - pymdownx.highlight:
       anchor_linenums: true
-  custom_dir: overrides
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
 
 nav:
   - index.md
