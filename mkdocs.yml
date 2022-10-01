@@ -1,10 +1,18 @@
 site_name: LiWE3 Documentation
 
-theme: material
+theme:
+  name: material
+  features:
+    - content.code.annotate # (1)
 
 markdown_extensions:
-    - toc:
-        permalink: True
+  - toc:
+      permalink: True
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
 nav:
   - index.md
@@ -16,6 +24,7 @@ nav:
     - NextJS:
       - 'Authentication': liwe3/nextjs/authentication.md
       - 'Payments': liwe3/nextjs/payments.md
+      - 'Redux': liwe3/nextjs/redux.md
   - Docs2Rest:
     - 'Introduction': docs2rest/index.md
     - 'GUI Definition': docs2rest/gui.md
