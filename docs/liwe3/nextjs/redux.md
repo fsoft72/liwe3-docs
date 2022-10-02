@@ -36,6 +36,10 @@ Then, you can simply add a new function to the `ReduxFunctions` object, with the
 
 Since the function is a reducer, it must return the new state, even if it is not modified, you can simply return the `new_state` parameter.
 
+!!! warning
+
+    The file `initial_state.ts` is automatically generated, so, as usual, remember to make your modifications inside the `=== d2r_start ===` and `=== d2r_end ===` tags.
+
 ### Invoking a custom function
 
 To invoke a custom function, you can use the `dispatch` function, as you would do with any other Redux function.

@@ -7,16 +7,17 @@ theme:
   custom_dir: overrides
 
 markdown_extensions:
-  - toc:
-      permalink: True
+  - admonition
+  - attr_list
   - pymdownx.highlight:
       anchor_linenums: true
+  - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-  - admonition
-  - pymdownx.details
   - pymdownx.superfences
+  - toc:
+      permalink: True
 
 
 nav:
