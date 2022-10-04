@@ -25,4 +25,4 @@ At the moment, framework is divided mainly in these parts:
 Please, use the left menu to navigate the documentation.
 
 
-*Last update: 2022-10-02 10:17:20*
+*Last update: 2022-10-02 11:02:45*
