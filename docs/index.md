@@ -2,9 +2,10 @@
 
 This is the offical home page of LiWE Framework.
 
-The complete toolchain and environment for developing LiWE applications is available here.
+LiWE is mainly two things:
 
-LiWE is a very opinionated framework that is designed to be as simple as possible and to solve the most common problems developers face everyday.
+1. A set of tools for documenting and developing software strcutures and applications.
+2. A very opinionated framework (at the moment for [Node.js](https://nodejs.org){target=_blank} and [React.js](https://reactjs.org){target=_blank}) that is designed to be as simple as possible and to solve the most common problems developers face everyday.
 
 At the moment, framework is divided mainly in these parts:
 
@@ -25,4 +26,4 @@ At the moment, framework is divided mainly in these parts:
 Please, use the left menu to navigate the documentation.
 
 
-*Last update: 2022-10-02 11:02:45*
+*Last update: 2022-10-24 13:33:22*
