@@ -27,22 +27,24 @@ markdown_extensions:
 nav:
   - index.md
   - LiWE3:
-    - 'Introduction': liwe3/index.md
+    - Introduction: liwe3/index.md
     - NodeJS:
-      - 'Library': liwe3/nodejs/index.md
-      - 'Sending emails': liwe3/nodejs/send_emails.md
+      - Library: liwe3/nodejs/index.md
+      - Sending emails: liwe3/nodejs/send_emails.md
     - NextJS:
-      - 'Authentication': liwe3/nextjs/authentication.md
-      - 'Payments': liwe3/nextjs/payments.md
-      - 'Redux': liwe3/nextjs/redux.md
+      - Authentication: liwe3/nextjs/authentication.md
+      - Payments: liwe3/nextjs/payments.md
+      - Redux: liwe3/nextjs/redux.md
     - Tools:
-      - 'Introduction': liwe3/tools/index.md
+      - Introduction: liwe3/tools/index.md
       - Flow2Code:
-        - 'Introduction': liwe3/tools/flow2code/index.md
-      - Docs2Rest:
-        - 'Introduction': liwe3/tools/docs2rest/index.md
-        - 'GUI Definition': liwe3/tools/docs2rest/gui.md
-        - 'Menu Creation': liwe3/tools/docs2rest/menu.md
+        - Introduction: liwe3/tools/flow2code/index.md
+        - Creating a new Template: liwe3/tools/flow2code/creating-a-new-template.md
+        - TemplateBase APIs: liwe3/tools/flow2code/template-base-api.md
+      #- Docs2Rest:
+        #- Introduction: liwe3/tools/docs2rest/index.md
+        #- GUI Definition: liwe3/tools/docs2rest/gui.md
+        #- Menu Creation: liwe3/tools/docs2rest/menu.md
 
   - Modules:
     - Introduction: modules/index.md
