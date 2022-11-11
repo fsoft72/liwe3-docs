@@ -12,7 +12,7 @@ At the moment, framework is divided mainly in these parts:
 * [LiWE Flow](https://flow.liwe.org){target=_blank} - this is the visual designer tool that helps you create the basic foundations of your application
 * [NodeJS Framework](./liwe3/nodejs/index.md) - this is responsible for the NodeJS environment and the core of the framework for backend applications
 * [NextJS Framework](./liwe3/nextjs/index.md) - this part covers the React component library and the framework for frontend, currently built on top of NextJS
-* [Tools](./liwe3/tools/index.md) - A collection of tools that are used by the framework and the applications
+* [Tools](./tools/index.md) - A collection of tools that are used by the framework and the applications
 
 ??? note "Modular frawework"
 
@@ -24,6 +24,3 @@ At the moment, framework is divided mainly in these parts:
     This is a work in progress.
 
 Please, use the left menu to navigate the documentation.
-
-
-*Last update: 2022-10-24 13:33:22*

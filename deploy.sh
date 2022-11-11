@@ -2,7 +2,7 @@
 
 upd=$(date "+%Y-%m-%d %H:%M:%S")
 
-sed -i "s/\*Last update:.*/*Last update: $upd*/" docs/index.md
+sed -i "s/Last update.*/Last update: $upd/" overrides/partials/copyright.html
 
 rm -Rf site
 mkdocs build
