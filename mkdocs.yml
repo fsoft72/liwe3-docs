@@ -43,15 +43,11 @@ nav:
       - TemplateBase APIs: tools/flow2code/template-base-api.md
     - restest:
       - Introduction: tools/restest/index.md
-      #- Docs2Rest:
-        #- Introduction: liwe3/tools/docs2rest/index.md
-        #- GUI Definition: liwe3/tools/docs2rest/gui.md
-        #- Menu Creation: liwe3/tools/docs2rest/menu.md
 
   - Modules:
     - Introduction: modules/index.md
     - Category: modules/category.md
+    - Mediamanager: modules/mediamanager.md
     - System: modules/system.md
     - Tag: modules/tag.md
-    - Upload: modules/upload.md
     - User: modules/user.md
