@@ -58,6 +58,7 @@ nav:
           - Payments: liwe3/nextjs/payments.md
           - Redux: liwe3/nextjs/redux.md
   - Tools:
+<<<<<<< HEAD
       - Introduction: tools/index.md
       - Flow2Code:
           - Introduction: tools/flow2code/index.md
@@ -77,3 +78,20 @@ nav:
       - Tag: modules/tag.md
       - Upload: modules/upload.md
       - User: modules/user.md
+=======
+    - Introduction: tools/index.md
+    - Flow2Code:
+      - Introduction: tools/flow2code/index.md
+      - Creating a new Template: tools/flow2code/creating-a-new-template.md
+      - TemplateBase APIs: tools/flow2code/template-base-api.md
+    - restest:
+      - Introduction: tools/restest/index.md
+
+  - Modules:
+    - Introduction: modules/index.md
+    - Category: modules/category.md
+    - Mediamanager: modules/mediamanager.md
+    - System: modules/system.md
+    - Tag: modules/tag.md
+    - User: modules/user.md
+>>>>>>> 2bd2e61ee8fc746f40a8084fa8f219197447dc70
