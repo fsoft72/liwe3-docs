@@ -6,8 +6,8 @@ theme:
     - content.code.annotate # (1)
   custom_dir: overrides
   extra_javascript:
-  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-  - javascripts/tablesort.js
+    - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+    - javascripts/tablesort.js
 
 markdown_extensions:
   - admonition
@@ -23,35 +23,57 @@ markdown_extensions:
   - toc:
       permalink: True
 
-
 nav:
   - index.md
   - LiWE3:
-    - Introduction: liwe3/index.md
-    - NodeJS:
-      - Library: liwe3/nodejs/index.md
-      - Sending emails: liwe3/nodejs/send_emails.md
-    - NextJS:
-      - Authentication: liwe3/nextjs/authentication.md
-      - Payments: liwe3/nextjs/payments.md
-      - Redux: liwe3/nextjs/redux.md
+      - Introduction: liwe3/index.md
+      - NodeJS:
+          - Library:
+              - auth: liwe3/nodejs/files/auth.md
+              - console_colors: liwe3/nodejs/files/console_colors.md
+              - crypt_messages: liwe3/nodejs/files/crypt_messages.md
+              - defender: liwe3/nodejs/files/defender.md
+              - encrypt: liwe3/nodejs/files/encrypt.md
+              - events: liwe3/nodejs/files/events.md
+              - express: liwe3/nodejs/files/express.md
+              - fs: liwe3/nodejs/files/fs.md
+              - image: liwe3/nodejs/files/image.md
+              - liwe: liwe3/nodejs/files/liwe.md
+              - locale: liwe3/nodejs/files/locale.md
+              - mail: liwe3/nodejs/files/mail.md
+              - mimetype: liwe3/nodejs/files/mimetype.md
+              - ogparser: liwe3/nodejs/files/ogparser.md
+              - pdf: liwe3/nodejs/files/pdf.md
+              - readargs: liwe3/nodejs/files/readargs.md
+              - socketio: liwe3/nodejs/files/socketio.md
+              - startup: liwe3/nodejs/files/startup.md
+              - throttler: liwe3/nodejs/files/throttler.md
+              - types: liwe3/nodejs/files/types.md
+              - upload: liwe3/nodejs/files/upload.md
+              - utils: liwe3/nodejs/files/utils.md
+          - Authentication: liwe3/nodejs/authentication.md
+          - Sending emails: liwe3/nodejs/send_emails.md
+      - NextJS:
+          - Authentication: liwe3/nextjs/authentication.md
+          - Payments: liwe3/nextjs/payments.md
+          - Redux: liwe3/nextjs/redux.md
   - Tools:
-    - Introduction: tools/index.md
-    - Flow2Code:
-      - Introduction: tools/flow2code/index.md
-      - Creating a new Template: tools/flow2code/creating-a-new-template.md
-      - TemplateBase APIs: tools/flow2code/template-base-api.md
-    - restest:
-      - Introduction: tools/restest/index.md
-      #- Docs2Rest:
+      - Introduction: tools/index.md
+      - Flow2Code:
+          - Introduction: tools/flow2code/index.md
+          - Creating a new Template: tools/flow2code/creating-a-new-template.md
+          - TemplateBase APIs: tools/flow2code/template-base-api.md
+      - restest:
+          - Introduction: tools/restest/index.md
+        #- Docs2Rest:
         #- Introduction: liwe3/tools/docs2rest/index.md
         #- GUI Definition: liwe3/tools/docs2rest/gui.md
         #- Menu Creation: liwe3/tools/docs2rest/menu.md
 
   - Modules:
-    - Introduction: modules/index.md
-    - Category: modules/category.md
-    - System: modules/system.md
-    - Tag: modules/tag.md
-    - Upload: modules/upload.md
-    - User: modules/user.md
+      - Introduction: modules/index.md
+      - Category: modules/category.md
+      - System: modules/system.md
+      - Tag: modules/tag.md
+      - Upload: modules/upload.md
+      - User: modules/user.md
