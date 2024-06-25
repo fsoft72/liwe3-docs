@@ -27,6 +27,8 @@ nav:
   - index.md
   - LiWE3:
       - Introduction: liwe3/index.md
+      - Flutter:
+          - Introduction: liwe3/flutter/index.md
       - NodeJS:
           - Library:
               - auth: liwe3/nodejs/files/auth.md
