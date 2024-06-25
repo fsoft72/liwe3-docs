@@ -57,6 +57,11 @@ nav:
           - Authentication: liwe3/nextjs/authentication.md
           - Payments: liwe3/nextjs/payments.md
           - Redux: liwe3/nextjs/redux.md
+      - Svelte:
+          - Theme System: liwe3/svelte/theme.md
+          - Components:
+              - Introduction: liwe3/svelte/components/index.md
+              - Button: liwe3/svelte/components/button.md
   - Tools:
       - Introduction: tools/index.md
       - Flow2Code:
@@ -68,7 +73,9 @@ nav:
 
   - Modules:
       - Introduction: modules/index.md
-      - Category: modules/category.md
+      - Category:
+          - Endpoints: modules/category.md
+          - Svelte: modules/category/svelte/index.md
       - Mediamanager: modules/mediamanager.md
       - System: modules/system.md
       - Tag: modules/tag.md
