@@ -298,6 +298,245 @@ Styles for form elements, including buttons, inputs, and checkboxes.
     ```html
     <input type="checkbox" class="liwe3-form-checkbox">
     ```
+  - **Javascript generated color schemes variables**:
+    ```css
+    	--liwe3-form-border-width-focus: calc(var(--liwe3-border-width)*2);
+			--liwe3-form-bg: var(--liwe3-[theme-variant]-mode3);
+			--liwe3-form-text-color: var(--liwe3-[theme-variant]-mode3-500-text);
+			--liwe3-form-accent: var(--liwe3-[theme-variant]-mode4);
+			--liwe3-form-accent-color: var(--liwe3-[theme-variant]-mode4-700);
+			--liwe3-form-border-color: var(--liwe3-[theme-variant]-mode3-200-border);
+			--liwe3-form-focus-bg: var(--liwe3-[theme-variant]-mode3-500-hover);
+			--liwe3-form-error: var(--liwe3-[theme-variant]-error-500);
+			.mode1 {
+				--liwe3-form-bg: var(--liwe3-[theme-variant]-mode1);
+				--liwe3-form-text-color: var(--liwe3-[theme-variant]-mode1-500-text);
+				--liwe3-form-border-color: var(--liwe3-[theme-variant]-mode1-200-border);
+				--liwe3-form-focus-bg: var(--liwe3-[theme-variant]-mode1-500-hover);
+				&.liwe3-form-custom-input {
+					--liwe3-form-text-placeholder-color: var(--liwe3-[theme-variant]-mode1-500-text) !important;
+					--liwe3-form-legend: var(--liwe3-[theme-variant]-mode1-200-border);
+				}
+				&.liwe3-form-custom-checkbox-radio {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-mode1);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-mode1-500-text);
+				}
+				&.liwe3-form-radio-group input[type=radio]:checked+label {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-mode4-500-hover);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-mode4-500-text);
+				}
+			}
+			.mode2 {
+				--liwe3-form-bg: var(--liwe3-[theme-variant]-mode2);
+				--liwe3-form-text-color: var(--liwe3-[theme-variant]-mode2-500-text);
+				--liwe3-form-border-color: var(--liwe3-[theme-variant]-mode2-200-border);
+				--liwe3-form-focus-bg: var(--liwe3-[theme-variant]-mode2-500-hover);
+				&.liwe3-form-custom-input {
+					--liwe3-form-text-placeholder-color: var(--liwe3-[theme-variant]-mode2-500-text) !important;
+					--liwe3-form-legend: var(--liwe3-[theme-variant]-mode2-200-border);
+				}
+				&.liwe3-form-custom-checkbox-radio {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-mode2);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-mode2-500-text);
+				}
+				&.liwe3-form-radio-group input[type=radio]:checked+label {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-mode4-500-hover);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-mode4-500-text);
+				}
+			}
+			.mode3 {
+				--liwe3-form-bg: var(--liwe3-[theme-variant]-mode3);
+				--liwe3-form-text-color: var(--liwe3-[theme-variant]-mode3-500-text);
+				--liwe3-form-border-color: var(--liwe3-[theme-variant]-mode3-200-border);
+				--liwe3-form-focus-bg: var(--liwe3-[theme-variant]-mode3-500-hover);
+				&.liwe3-form-custom-input {
+					--liwe3-form-text-placeholder-color: var(--liwe3-[theme-variant]-mode3-500-text) !important;
+					--liwe3-form-legend: var(--liwe3-[theme-variant]-mode3-200-border);
+				}
+				&.liwe3-form-custom-checkbox-radio {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-mode3);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-mode3-500-text);
+				}
+				&.liwe3-form-radio-group input[type=radio]:checked+label {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-mode4-500-hover);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-mode4-500-text);
+				}
+			}
+			.mode4 {
+				--liwe3-form-bg: var(--liwe3-[theme-variant]-mode4);
+				--liwe3-form-text-color: var(--liwe3-[theme-variant]-mode4-500-text);
+				--liwe3-form-border-color: var(--liwe3-[theme-variant]-mode4-200-border);
+				--liwe3-form-focus-bg: var(--liwe3-[theme-variant]-mode4-500-hover);
+				&.liwe3-form-custom-input {
+					--liwe3-form-text-placeholder-color: var(--liwe3-[theme-variant]-mode4-500-text) !important;
+					--liwe3-form-legend: var(--liwe3-[theme-variant]-mode4-200-border);
+				}
+				&.liwe3-form-custom-checkbox-radio {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-mode4);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-mode4-500-text);
+				}
+				&.liwe3-form-radio-group input[type=radio]:checked+label {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-mode4-500-hover);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-mode4-500-text);
+				}
+			}
+			.link {
+				--liwe3-form-bg: var(--liwe3-[theme-variant]-link);
+				--liwe3-form-text-color: var(--liwe3-[theme-variant]-link-500-text);
+				--liwe3-form-border-color: var(--liwe3-[theme-variant]-link-200-border);
+				--liwe3-form-focus-bg: var(--liwe3-[theme-variant]-link-500-hover);
+				&.liwe3-form-custom-input {
+					--liwe3-form-text-placeholder-color: var(--liwe3-[theme-variant]-link-500-text) !important;
+					--liwe3-form-legend: var(--liwe3-[theme-variant]-link-200-border);
+				}
+				&.liwe3-form-custom-checkbox-radio {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-link);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-link-500-text);
+				}
+				&.liwe3-form-radio-group input[type=radio]:checked+label {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-link-500-hover);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-link-500-text);
+				}
+			}
+			.info {
+				--liwe3-form-bg: var(--liwe3-[theme-variant]-info);
+				--liwe3-form-text-color: var(--liwe3-[theme-variant]-info-500-text);
+				--liwe3-form-border-color: var(--liwe3-[theme-variant]-info-200-border);
+				--liwe3-form-focus-bg: var(--liwe3-[theme-variant]-info-500-hover);
+				&.liwe3-form-custom-input {
+					--liwe3-form-text-placeholder-color: var(--liwe3-[theme-variant]-info-500-text) !important;
+					--liwe3-form-legend: var(--liwe3-[theme-variant]-info-200-border);
+				}
+				&.liwe3-form-custom-checkbox-radio {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-info);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-info-500-text);
+				}
+				&.liwe3-form-radio-group input[type=radio]:checked+label {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-info-500-hover);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-info-500-text);
+				}
+			}
+			.success {
+				--liwe3-form-bg: var(--liwe3-[theme-variant]-success);
+				--liwe3-form-text-color: var(--liwe3-[theme-variant]-success-500-text);
+				--liwe3-form-border-color: var(--liwe3-[theme-variant]-success-200-border);
+				--liwe3-form-focus-bg: var(--liwe3-[theme-variant]-success-500-hover);
+				&.liwe3-form-custom-input {
+					--liwe3-form-text-placeholder-color: var(--liwe3-[theme-variant]-success-500-text) !important;
+					--liwe3-form-legend: var(--liwe3-[theme-variant]-success-200-border);
+				}
+				&.liwe3-form-custom-checkbox-radio {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-success);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-success-500-text);
+				}
+				&.liwe3-form-radio-group input[type=radio]:checked+label {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-success-500-hover);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-success-500-text);
+				}
+			}
+			.warning {
+				--liwe3-form-bg: var(--liwe3-[theme-variant]-warning);
+				--liwe3-form-text-color: var(--liwe3-[theme-variant]-warning-500-text);
+				--liwe3-form-border-color: var(--liwe3-[theme-variant]-warning-200-border);
+				--liwe3-form-focus-bg: var(--liwe3-[theme-variant]-warning-500-hover);
+				&.liwe3-form-custom-input {
+					--liwe3-form-text-placeholder-color: var(--liwe3-[theme-variant]-warning-500-text);
+					--liwe3-form-legend: var(--liwe3-[theme-variant]-warning-200-border);
+				}
+				&.liwe3-form-custom-checkbox-radio {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-warning);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-warning-500-text);
+				}
+				&.liwe3-form-radio-group input[type=radio]:checked+label {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-warning-500-hover);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-warning-500-text);
+				}
+			}
+			.error {
+				--liwe3-form-bg: var(--liwe3-[theme-variant]-error);
+				--liwe3-form-text-color: var(--liwe3-[theme-variant]-error-500-text);
+				--liwe3-form-border-color: var(--liwe3-[theme-variant]-error-200-border);
+				--liwe3-form-focus-bg: var(--liwe3-[theme-variant]-error-500-hover);
+				&.liwe3-form-custom-input {
+					--liwe3-form-text-placeholder-color: var(--liwe3-[theme-variant]-error-500-text);
+					--liwe3-form-legend: var(--liwe3-[theme-variant]-error-200-border);
+				}
+				&.liwe3-form-custom-checkbox-radio {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-error);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-error-500-text);
+				}
+				&.liwe3-form-radio-group input[type=radio]:checked+label {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-error-500-hover);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-error-500-text);
+				}
+			}
+			.dark {
+				--liwe3-form-bg: var(--liwe3-[theme-variant]-background);
+				--liwe3-form-text-color: var(--liwe3-[theme-variant]-background-500-text);
+				--liwe3-form-border-color: var(--liwe3-[theme-variant]-background-200-border);
+				--liwe3-form-focus-bg: var(--liwe3-[theme-variant]-background-500-hover);
+				&.liwe3-form-custom-input {
+					--liwe3-form-text-placeholder-color: var(--liwe3-[theme-variant]-background-500-text);
+					--liwe3-form-legend: var(--liwe3-[theme-variant]-background-200-border);
+				}
+				&.liwe3-form-custom-checkbox-radio {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-background);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-background-500-text);
+				}
+				&.liwe3-form-radio-group input[type=radio]:checked+label {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-background-500-hover);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-background-500-text);
+				}
+			}
+			.background {
+				--liwe3-form-bg: var(--liwe3-[theme-variant]-background);
+				--liwe3-form-text-color: var(--liwe3-[theme-variant]-background-500-text);
+				--liwe3-form-border-color: var(--liwe3-[theme-variant]-background-200-border);
+				--liwe3-form-focus-bg: var(--liwe3-[theme-variant]-background-500-hover);
+				&.liwe3-form-custom-input {
+					--liwe3-form-text-placeholder-color: var(--liwe3-[theme-variant]-background-500-text);
+					--liwe3-form-legend: var(--liwe3-[theme-variant]-background-200-border);
+				}
+				&.liwe3-form-custom-checkbox-radio {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-background);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-background-500-text);
+				}
+				&.liwe3-form-radio-group input[type=radio]:checked+label {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-background-500-hover);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-background-500-text);
+				}
+			}
+			.color {
+				--liwe3-form-bg: var(--liwe3-[theme-variant]-text);
+				--liwe3-form-text-color: var(--liwe3-[theme-variant]-text-500-text);
+				--liwe3-form-border-color: var(--liwe3-[theme-variant]-text-200-border);
+				--liwe3-form-focus-bg: var(--liwe3-[theme-variant]-text-500-hover);
+				&.liwe3-form-custom-input {
+					--liwe3-form-text-placeholder-color: var(--liwe3-[theme-variant]-text-500-text);
+					--liwe3-form-legend: var(--liwe3-[theme-variant]-text-200-border);
+				}
+				&.liwe3-form-custom-checkbox-radio {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-text);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-text-500-text);
+				}
+				&.liwe3-form-radio-group input[type=radio]:checked+label {
+					--liwe3-form-accent: var(--liwe3-[theme-variant]-text-500-hover);
+					--liwe3-form-accent-color: var(--liwe3-[theme-variant]-text-500-text);
+				}
+			}
+			.liwe3-form-custom-switch {
+				--liwe3-form-text-placeholder-color: var(--liwe3-[theme-variant]-mode3-700-text);
+				--liwe3-form-radius: var(--liwe3-border-radius);
+			}
+			.liwe3-form-custom-btn {
+				--liwe3-form-btn-primary: var(--liwe3-[theme-variant]-mode3);
+				--liwe3-form-btn-default-text: var(--liwe3-[theme-variant]-mode3-500-text);
+				--liwe3-form-radius: var(--liwe3-border-radius);
+			}
+			.liwe3-form-radio-group {
+				max-width: fit-content;
+			}
+    ```
 
 - **Form and Layout Example**:
   ```html
