@@ -64,6 +64,7 @@ nav:
           - Components:
               - Introduction: liwe3/svelte/components/index.md
               - Button: liwe3/svelte/components/button.md
+              - DataGrid: liwe3/svelte/components/datagrid.md
   - Tools:
       - Introduction: tools/index.md
       - Flow2Code:
@@ -72,6 +73,16 @@ nav:
           - TemplateBase APIs: tools/flow2code/template-base-api.md
       - restest:
           - Introduction: tools/restest/index.md
+          - Getting Started: tools/restest/chapters/01-getting-started.md
+          - Test Structure: tools/restest/chapters/02-test-structure.md
+          - Making Requests: tools/restest/chapters/03-making-requests.md
+          - Testing Responses: tools/restest/chapters/04-testing-responses.md
+          - Variables and Data: tools/restest/chapters/05-variables-and-data.md
+          - Advanced Features: tools/restest/chapters/06-advanced-features.md
+          - Integration and Export: tools/restest/chapters/07-integration-and-export.md
+          - Command Line Options: tools/restest/chapters/08-command-line-options.md
+          - APPENDIX A - Modes Reference: tools/restest/chapters/A-testing-modes.md
+          - APPENDIX B - Path Parser: tools/restest/chapters/B-path-parser.md
 
   - Modules:
       - Introduction: modules/index.md
