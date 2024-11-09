@@ -2,6 +2,10 @@
 
 RESTest is a powerful and flexible REST API testing tool written in Python that allows you to create, run and validate API tests through simple JSON files. With RESTest, you can quickly set up test suites for your APIs, validate responses, extract and reuse data between requests, and much more.
 
+**WATCH my PyCon IT 2023 presentation (in Italian)**
+
+[![Watch the video](https://i.ytimg.com/vi/W2xV3mGT2RA/hq720.jpg)](https://youtu.be/W2xV3mGT2RA)
+
 ## Key Features
 
 - **Simple JSON-based Test Definition**: Write tests using straightforward JSON syntax
